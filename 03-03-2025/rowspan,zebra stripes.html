@@ -1,0 +1,98 @@
+
+HTML Table - Rowspan
+
+Example
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+</table>
+
+<!------------->
+
+HTML Table - Zebra Stripes
+
+Examples 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table style="width:100%">
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+    <th>SAT</th>
+    <th>SUN</th>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+</body>
+</html>
+
+<!--------------->
