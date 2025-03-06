@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .container {
+            width: 85%;
+            height: 100%;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:pink;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: pink;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>SIVADARSHINI.A.S</h1>
+                <p>BE [ECE]<br>Sathyabama Institute of Science and Technology<br></p>
+
+                <h4 style="color: rgb(55, 55, 160);">sivadarshini60@gmail.com</h4>
+            </div>
+            <img src="https://drive.google.com/file/d/1WfV7_5G76un3DnJd2BcRcstAXlpIM7_L/view?usp=sharing" alt="Profile Picture" class="profile-pic">
+        </div>
+
+        <div class="section">
+            <h2>Objective</h2>
+            <p>Seeking a challenging position to expand my knowledge, skills, and contribute effectively.</p>
+        </div>
+
+        <div class="grid">
+            <div class="box">
+                <h2>Education</h2>
+                <p>SCHOOL-Completed in SRDKVV with 81%<br>Certified in Hindi exams <br>Current CGPA: 9.0</p>
+            </div>
+            <div class="box">
+                <h2>Skills</h2>
+                <p>Python<br>Web Development<br> Good communication skills</p>
+            </div>
+        </div>
+
+        <div class="grid-3">
+            <div class="box">
+                <h2>About Me<h2>
+                <p>I am a Passionate with a strong interest in learning new skills.My goal is to contribute to innovative projects that makes a meaningful impact and help me grow as a professional</p>
+            </div>
+            <div class="box">
+                <h2>Achievement</h2>
+                <p>*completed 12th with 81%<br>*Got certificates for many core events<br>*Completed all level in hindi exams<br>*completed  internship in one private institute</p>
+            </div>
+            <div class="box">
+                <h2>Hobbies</h2>
+                <p>Reading books<br>Painting<br>Listening music and watching crime films</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
